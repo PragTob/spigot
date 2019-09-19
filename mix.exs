@@ -22,6 +22,7 @@ defmodule Spigot.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:benchee, "~> 1.0", only: :dev},
       {:credo, "~> 1.0", only: [:dev, :test], runtime: false},
       {:distillery, "~> 2.0"},
       {:elixir_uuid, "~> 1.2"},
